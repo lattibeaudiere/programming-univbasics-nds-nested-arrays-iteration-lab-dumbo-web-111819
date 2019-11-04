@@ -32,7 +32,13 @@ def find_greater_pair(src)
   counter = 0 
   
   while counter < src.length
-end
+  
+  array.push(src[counter].max)
+    counter +=1
+    
+  end
+  
+  array
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
