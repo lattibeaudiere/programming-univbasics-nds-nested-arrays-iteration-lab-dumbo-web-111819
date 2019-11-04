@@ -13,6 +13,8 @@ def join_ingredients(src)
   
   while counter < src.length
   
+  array.push("I love #{src[counter][0]} and #{src[counter][1]} on my pizza")
+  
 end
 
 def find_greater_pair(src)
